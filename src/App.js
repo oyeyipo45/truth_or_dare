@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import  Index  from "./Components/Index";
+import  Base  from ".//Components/Game/Base";
 
 
 function App() {
   return (
     <div className="container">
-        <Index />
+        <Base />
     </div>
   );
 }

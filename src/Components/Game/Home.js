@@ -3,15 +3,11 @@ import { Link } from "react-router-dom";
 
 
 
- const GameField = () => {
+export const Home = () => {
     return (
         <div className="container">
             
-            <Link to="/">Home</Link>
-            <button className="btn btn-danger">TURN</button>
+           <Link to="/GameField">START GAME</Link>
         </div>
     )
 }
-
-
-export default GameField;
