@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "question" : "question 1",
+        "type" : "truth"
+    },
+    {
+        "id": 2,
+        "question" : "question 2",
+        "type" : "dare"
+    },
+    {
+        "id": 3,
+        "question" : "question 3",
+        "type" : "truth"
+    },
+    {
+        "id": 3,
+        "question" : "question 4",
+        "type" : "dare"
+    }
+]
