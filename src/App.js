@@ -6,7 +6,10 @@ import  Base  from ".//Components/Game/Base";
 function App() {
   return (
     <div className="container">
-        <Base />
+      {/* <Provider> */}
+          <Base />
+      {/* </Provider> */}
+        
     </div>
   );
 }

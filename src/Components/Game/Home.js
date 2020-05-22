@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 export const Home = () => {
     return (
         <div className="container">
-            
-           <Link to="/GameField">START GAME</Link>
+
+           <Link to="/Players">Add Players</Link>
+
         </div>
     )
 }

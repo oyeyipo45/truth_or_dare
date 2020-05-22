@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 
- const GameField = () => {
+export const GameField = () => {
     return (
         <div className="container">
             
@@ -14,4 +14,3 @@ import { Link } from "react-router-dom";
 }
 
 
-export default GameField;
