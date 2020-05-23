@@ -7,14 +7,23 @@ export const Players = () => {
     const [playerName, addPlayerName] = useState('');
     return (
         <div>
-            <input
-            type="Text"
-            placeholder="Add Player"
-            value = {playerName}
-            onChange={(e) => addPlayerName(e.target.value)}
-            />
+            <form>
+                <input
+                type="Text"
+                placeholder="Add Player"
+                value = {playerName}
+                onChange={(e) => addPlayerName(e.target.value)}
+                />
+            
+                <Link to="/GameField">Begin Game</Link>
+                
+            </form> 
             <Link to="/">Home</Link>
-            <Link to="/GameField">Begin Game</Link>
+
+                <p>{playerName}</p>
         </div>
     )
 }
+
+
+
